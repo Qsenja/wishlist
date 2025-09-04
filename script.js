@@ -33,7 +33,7 @@ wishes.forEach(w => {
     card.innerHTML = `
         <img src="${w.img}" alt="${w.title}">
         <div class="title">${w.title}</div>
-        <button onclick="openWish('${w.url}')">Zum Wunsch</button>
+        <button onclick="openWish('${w.url}')">Click mich</button>
     `;
     card.addEventListener('click', () => openWish(w.url));
     wishlist.appendChild(card);
