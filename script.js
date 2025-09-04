@@ -57,4 +57,4 @@ function updateCountdown() {
     document.getElementById('cd-secs').textContent = s.toString().padStart(2,'0');
 }
 updateCountdown();
-setInterval(updateCountdown, 1000);
+setInterval(updateCountdown, 1);
