@@ -9,7 +9,7 @@ const wishes = [
     url: "https://de.nothing.tech/products/phone-3a?Farbe=Wei%C3%9F&Fassungsverm%C3%B6gen=12%2B256GB"
   },
   {
-    img: "https://m.media-amazon.com/images/I/719v3WtTZNL._AC_SL1200_.jpg",
+    img: "",
     url: "https://shorturl.at/1GSKw"
   },
   {
