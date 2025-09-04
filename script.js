@@ -5,7 +5,7 @@ const targetDate = new Date(2025, 8, 17, 17, 0); // 17. September 2025 17:00
 /* ========== 2) Wunsch-Links einfach ändern ========== */
 const wishes = [
   {
-    img: "https://m.media-amazon.com/images/I/61J5HS8U9VL._AC_SL1500_.jpg",
+    img: "https://m.media-amazon.com/images/I/61lN7lxvAFL._AC_SL1100_.jpg",
     url: "https://shorturl.at/Rk94M"
   },
   {
