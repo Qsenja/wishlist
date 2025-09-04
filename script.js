@@ -6,7 +6,7 @@ const targetDate = new Date(2025, 8, 17, 17, 0); // 17. September 2025 17:00
 const wishes = [
   {
     img: "https://cdn.sanity.io/images/gtd4w1cq/production/becdad013a788bc6f8d8fbdc8a6314c3349409bb-1316x1645.jpg?auto=format",
-    url: "https://shorturl.at/Rk94M"
+    url: "https://de.nothing.tech/products/phone-3a?Farbe=Wei%C3%9F&Fassungsverm%C3%B6gen=12%2B256GB"
   },
   {
     img: "https://m.media-amazon.com/images/G/03/apparel/rcxgs/tile._CB483369910_.gif",
