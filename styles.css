@@ -34,19 +34,34 @@ h1 { margin-bottom: 20px; font-size: 2rem; }
 #countdown {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    align-items: center;
+    gap: 8px;
     margin-bottom: 40px;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
-#countdown span {
+#countdown .unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: #fff;
     padding: 10px 14px;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
-    min-width: 52px;
+    min-width: 70px;
 }
+
+#countdown .unit span { font-size: 2rem; line-height: 1; }
+
+#countdown .unit label {
+    margin-top: 4px;
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+#countdown .sep { font-size: 1.5rem; }
 
 .wishlist {
     display: grid;
