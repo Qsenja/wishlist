@@ -9,15 +9,15 @@ const wishes = [
     url: "https://de.nothing.tech/products/phone-3a?Farbe=Wei%C3%9F&Fassungsverm%C3%B6gen=12%2B256GB"
   },
   {
-    img: "https://m.media-amazon.com/images/G/03/apparel/rcxgs/tile._CB483369910_.gif",
+    img: "https://m.media-amazon.com/images/I/719v3WtTZNL._AC_SL1200_.jpg",
     url: "https://shorturl.at/1GSKw"
   },
   {
-    img: "https://m.media-amazon.com/images/I/71wUQul9bFL._AC_SL1500_.jpg",
+    img: "https://m.media-amazon.com/images/I/71bdv5683lL._AC_SL1500_.jpg",
     url: "https://shorturl.at/64VE0"
   },
   {
-    img: "https://m.media-amazon.com/images/I/61vU+x+b0VL._AC_SL1500_.jpg",
+    img: "https://m.media-amazon.com/images/I/71cyXRO-uhL._AC_SL1500_.jpg",
     url: "https://shorturl.at/QKU3I"
   }
 ];
