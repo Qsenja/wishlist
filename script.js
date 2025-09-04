@@ -5,11 +5,11 @@ const targetDate = new Date(2025, 8, 17, 17, 0); // 17. September 2025 17:00
 /* ========== 2) Wunsch-Links einfach ändern ========== */
 const wishes = [
   {
-    img: "https://m.media-amazon.com/images/I/61lN7lxvAFL._AC_SL1100_.jpg",
+    img: "https://cdn.sanity.io/images/gtd4w1cq/production/becdad013a788bc6f8d8fbdc8a6314c3349409bb-1316x1645.jpg?auto=format",
     url: "https://shorturl.at/Rk94M"
   },
   {
-    img: "https://m.media-amazon.com/images/I/61NhR5GGBJL._AC_SL1500_.jpg",
+    img: "https://m.media-amazon.com/images/G/03/apparel/rcxgs/tile._CB483369910_.gif",
     url: "https://shorturl.at/1GSKw"
   },
   {
