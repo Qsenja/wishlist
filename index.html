@@ -7,19 +7,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="vignette"></div>
+    <dialog id="inviteDialog" class="popup">
+        <p>Hallo!<br>Ich würde euch gerne am <strong>17. September um 17 Uhr</strong> zu meinem Geburtstag bei mir zuhause zum Abendessen einladen.<br>Bitte meldet euch zurück, ob ihr kommen könnt oder nicht.<br>– Lias</p>
+        <button id="closeDialog">Alles klar!</button>
+    </dialog>
+
     <main>
         <h1>Wunschliste</h1>
 
         <section id="countdown">
-            <span id="cd-days">--</span> Tage
-            <span id="cd-hours">--</span> :
-            <span id="cd-mins">--</span> :
+            <span id="cd-days">--</span>
+            <span id="cd-hours">--</span>
+            <span id="cd-mins">--</span>
             <span id="cd-secs">--</span>
         </section>
 
-        <div class="wishlist">
-            <!-- Karten werden per JS eingefügt -->
-        </div>
+        <div class="wishlist"></div>
     </main>
 
     <script src="script.js"></script>
