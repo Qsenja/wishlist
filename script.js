@@ -13,7 +13,7 @@ const wishes = [
     url: "https://shorturl.at/1GSKw"
   },
   {
-    img: "https://m.media-amazon.com/images/I/71bdv5683lL._AC_SL1500_.jpg",
+    img: "https://github.com/Qsenja/wishlist/blob/main/wishlist2.jpg?raw=true",
     url: "https://shorturl.at/64VE0"
   },
   {
