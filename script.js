@@ -1,10 +1,8 @@
 document.getElementById('closeDialog').addEventListener('click', () => document.getElementById('inviteDialog').close());
 document.getElementById('inviteDialog').showModal();
 
-/* Countdown-Ziel (Jahr, Monat-1, Tag, Stunde, Minute) */
 const targetDate = new Date(2025, 8, 17, 17, 0);
 
-/* Wünsche: img, url, title */
 const wishes = [
   {
     img: "https://cdn.sanity.io/images/gtd4w1cq/production/becdad013a788bc6f8d8fbdc8a6314c3349409bb-1316x1645.jpg?auto=format",
@@ -46,7 +44,7 @@ function openWish(url) { window.open(url, '_blank'); }
 function updateCountdown() {
     const diff = targetDate - new Date();
     if (diff <= 0) {
-        document.getElementById('countdown').textContent = "🎉 Es ist soweit!";
+        document.getElementById('countdown').innerHTML = '<div class="unit">🎉</div>';
         return;
     }
     const d = Math.floor(diff / (1000*60*60*24));
