@@ -15,21 +15,37 @@ body {
     display: flex;
     justify-content: center;
     padding: 40px 20px;
+    min-height: 100vh;
+    position: relative;
 }
 
-main {
-    width: 100%;
-    max-width: 880px;
-    text-align: center;
+.vignette {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background: radial-gradient(ellipse at center, transparent 60%, rgba(0,0,0,.25) 100%);
+    z-index: 0;
 }
+
+main { position: relative; z-index: 1; width: 100%; max-width: 880px; text-align: center; }
 
 h1 { margin-bottom: 20px; font-size: 2rem; }
 
 #countdown {
-    font-size: 1.6rem;
-    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
     margin-bottom: 40px;
-    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#countdown span {
+    background: #fff;
+    padding: 10px 14px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    min-width: 52px;
 }
 
 .wishlist {
@@ -47,7 +63,11 @@ h1 { margin-bottom: 20px; font-size: 2rem; }
     flex-direction: column;
     justify-content: space-between;
     aspect-ratio: 3 / 4;
+    cursor: pointer;
+    transition: transform .25s;
 }
+
+.card:hover { transform: scale(1.05); }
 
 .card img {
     width: 100%;
@@ -56,8 +76,14 @@ h1 { margin-bottom: 20px; font-size: 2rem; }
     border-radius: calc(var(--radius) - 4px);
 }
 
+.card .title {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
 .card button {
-    margin-top: 14px;
+    margin-top: 10px;
     border: none;
     background: var(--primary);
     color: #fff;
@@ -69,3 +95,27 @@ h1 { margin-bottom: 20px; font-size: 2rem; }
 }
 
 .card button:hover { background: #ff5252; }
+
+.popup {
+    border: none;
+    border-radius: var(--radius);
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    padding: 30px 35px;
+    max-width: 420px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.popup::backdrop { background: rgba(0,0,0,.45); }
+
+.popup button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 1rem;
+}
